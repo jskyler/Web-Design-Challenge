@@ -31,9 +31,9 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                   <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
-                  <a class="dropdown-item" href="#">Humidity</a>
-                  <a class="dropdown-item" href="#">Cloudiness</a>
-                  <a class="dropdown-item" href="#">Wind Speed</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -49,69 +49,51 @@
       </nav>
 
     <section>
-        <div class="bg-success"></div>
-            <div class="row">
-                <div class="container col-md-8 bg-white">
+        <div class="row">
+            <div class="container col-md-8 bg-white">
 
-                    <div class="col-md-8 pt-3 text-primary">
-                        <h3>Max Temperature</h3>
-                    </div>
-                    <hr><br>
-
-                    <div class="col-md-12">
-                        <div class="float-left">
-                            <a href="assets/Latitude vs. Temperature Plot.png">
-                                <img target="_blank" src="assets/Latitude vs. Temperature Plot.png" alt="Latitude vs. Temperature Plot" style="width:130px;height:130px;">
-                            </a>
-                        </div>
-                        <div>
-                        The purpose of this project was to analyze how weather 
-                        changes as you get closer to the equator. To accomplish 
-                        this analysis, we first pulled data from OpenWeatherMap 
-                        API to assemble a dataset on over 500 cities.
-                        <br><br>
-                        After assembling the dataset, we used Matplotlib to plot 
-                        various aspects of the weather vs. latitude. Factors we 
-                        looked at included: temperature, cloudiness, wind speed, 
-                        and humidity. This site provides the sources data and 
-                        visualizations created as part of the analysis, as 
-                        explanations and descriptions of any trends and 
-                        correlations witnessed.
-                        <br><br>
-                        </div>
-                    </div>
+                <div class="col-md-12 pt-3 text-primary">
+                    <h3>Max Temperature</h3>
                 </div>
+                <hr><br>
 
-                <div class="container col-sm-3 bg-white">
-                    <div class="col-sm-3 pt-3 text-primary">
-                        <h3>Visualizations</h3>
+                <div class="col-md-12" align="center">
+                        <a href="assets/Latitude vs. Temperature Plot.png">
+                            <img src="assets/Latitude vs. Temperature Plot.png" alt="Latitude vs. Temperature Plot" class="img-fluid" style="width:648px;height:432px;">
+                        </a>
+                    <br><br>
+                </div>
+            </div>
+
+            <div class="container col-sm-3 bg-white align-self-start pt-3 pb-4">
+                <div class="col-sm-3 text-primary">
+                    <h3>Visualizations</h3>
+                </div>
+                <hr><br>
+
+                <div class="row justify-content-center">
+                    <div>
+                        <a href="cloudiness.html">
+                            <img src="assets/Latitude vs. Cloudiness Plot.png" alt="Latitude vs. Cloudiness Plot" style="width:130px;height:130px;">
+                        </a>
                     </div>
-                    <hr><br>
 
-                    <div class="row justify-content-center">
-                        <div>
-                            <a target="_blank" href="assets/Latitude vs. Cloudiness Plot.png">
-                                <img src="assets/Latitude vs. Cloudiness Plot.png" alt="Latitude vs. Cloudiness Plot" style="width:130px;height:130px;">
-                            </a>
-                        </div>
+                    <div>
+                        <a href="humidity.html">
+                            <img src="assets/Latitude vs. Humidity Plot.png" alt="Latitude vs. Humidity Plot" style="width:130px;height:130px;">
+                        </a>
+                    </div>
 
-                        <div>
-                            <a target="_blank" href="assets/Latitude vs. Humidity Plot.png">
-                                <img src="assets/Latitude vs. Humidity Plot.png" alt="Latitude vs. Humidity Plot" style="width:130px;height:130px;">
-                            </a>
-                        </div>
+                    <div>
+                        <a href="max_temperature.html">
+                            <img src="assets/Latitude vs. Temperature Plot.png" alt="Latitude vs. Temperature Plot" class="border border-primary" style="width:130px;height:130px;">
+                        </a>
+                    </div>
 
-                        <div>
-                            <a href="assets/Latitude vs. Temperature Plot.png">
-                                <img target="_blank" src="assets/Latitude vs. Temperature Plot.png" alt="Latitude vs. Temperature Plot" style="width:130px;height:130px;">
-                            </a>
-                        </div>
-
-                        <div>
-                            <a href="assets/Latitude vs. Wind Speed Plot.png">
-                                <img target="_blank" src="assets/Latitude vs. Wind Speed Plot.png" alt="Latitude vs. Wind Speed Plot" style="width:130px;height:130px;">
-                            </a>
-                        </div>
+                    <div>
+                        <a href="wind_speed.html">
+                            <img src="assets/Latitude vs. Wind Speed Plot.png" alt="Latitude vs. Wind Speed Plot" style="width:130px;height:130px;">
+                        </a>
                     </div>
                 </div>
             </div>
